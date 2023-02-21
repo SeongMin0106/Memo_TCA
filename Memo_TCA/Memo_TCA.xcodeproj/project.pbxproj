@@ -7,62 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD27BE0C29A4FAB5009DA7A7 /* Memo_TCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD27BE0B29A4FAB5009DA7A7 /* Memo_TCAApp.swift */; };
-		AD27BE0E29A4FAB5009DA7A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD27BE0D29A4FAB5009DA7A7 /* ContentView.swift */; };
-		AD27BE1029A4FAB6009DA7A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD27BE0F29A4FAB6009DA7A7 /* Assets.xcassets */; };
-		AD27BE1329A4FAB6009DA7A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD27BE1229A4FAB6009DA7A7 /* Preview Assets.xcassets */; };
+		AD27BE4D29A51E2E009DA7A7 /* Memo_TCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD27BE4C29A51E2E009DA7A7 /* Memo_TCAApp.swift */; };
+		AD27BE4F29A51E2E009DA7A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD27BE4E29A51E2E009DA7A7 /* ContentView.swift */; };
+		AD27BE5129A51E2F009DA7A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD27BE5029A51E2F009DA7A7 /* Assets.xcassets */; };
+		AD27BE5429A51E2F009DA7A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD27BE5329A51E2F009DA7A7 /* Preview Assets.xcassets */; };
+		AD27BE5B29A51E5D009DA7A7 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD27BE5A29A51E5D009DA7A7 /* Memo.swift */; };
+		AD27BE5D29A51EB2009DA7A7 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD27BE5C29A51EB2009DA7A7 /* MemoStore.swift */; };
+		AD27BE6029A526A3009DA7A7 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = AD27BE5F29A526A3009DA7A7 /* Realm */; };
+		AD27BE6229A526A3009DA7A7 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AD27BE6129A526A3009DA7A7 /* RealmSwift */; };
+		AD27BE6429A52CE7009DA7A7 /* AddMemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD27BE6329A52CE7009DA7A7 /* AddMemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AD27BE0829A4FAB5009DA7A7 /* Memo_TCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memo_TCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD27BE0B29A4FAB5009DA7A7 /* Memo_TCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo_TCAApp.swift; sourceTree = "<group>"; };
-		AD27BE0D29A4FAB5009DA7A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AD27BE0F29A4FAB6009DA7A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AD27BE1229A4FAB6009DA7A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD27BE4929A51E2E009DA7A7 /* Memo_TCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memo_TCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD27BE4C29A51E2E009DA7A7 /* Memo_TCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo_TCAApp.swift; sourceTree = "<group>"; };
+		AD27BE4E29A51E2E009DA7A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD27BE5029A51E2F009DA7A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD27BE5329A51E2F009DA7A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD27BE5A29A51E5D009DA7A7 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		AD27BE5C29A51EB2009DA7A7 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
+		AD27BE6329A52CE7009DA7A7 /* AddMemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AD27BE0529A4FAB5009DA7A7 /* Frameworks */ = {
+		AD27BE4629A51E2E009DA7A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD27BE6229A526A3009DA7A7 /* RealmSwift in Frameworks */,
+				AD27BE6029A526A3009DA7A7 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AD27BDFF29A4FAB5009DA7A7 = {
+		AD27BE4029A51E2E009DA7A7 = {
 			isa = PBXGroup;
 			children = (
-				AD27BE0A29A4FAB5009DA7A7 /* Memo_TCA */,
-				AD27BE0929A4FAB5009DA7A7 /* Products */,
+				AD27BE4B29A51E2E009DA7A7 /* Memo_TCA */,
+				AD27BE4A29A51E2E009DA7A7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AD27BE0929A4FAB5009DA7A7 /* Products */ = {
+		AD27BE4A29A51E2E009DA7A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD27BE0829A4FAB5009DA7A7 /* Memo_TCA.app */,
+				AD27BE4929A51E2E009DA7A7 /* Memo_TCA.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AD27BE0A29A4FAB5009DA7A7 /* Memo_TCA */ = {
+		AD27BE4B29A51E2E009DA7A7 /* Memo_TCA */ = {
 			isa = PBXGroup;
 			children = (
-				AD27BE0B29A4FAB5009DA7A7 /* Memo_TCAApp.swift */,
-				AD27BE0D29A4FAB5009DA7A7 /* ContentView.swift */,
-				AD27BE0F29A4FAB6009DA7A7 /* Assets.xcassets */,
-				AD27BE1129A4FAB6009DA7A7 /* Preview Content */,
+				AD27BE4C29A51E2E009DA7A7 /* Memo_TCAApp.swift */,
+				AD27BE4E29A51E2E009DA7A7 /* ContentView.swift */,
+				AD27BE6329A52CE7009DA7A7 /* AddMemoView.swift */,
+				AD27BE5A29A51E5D009DA7A7 /* Memo.swift */,
+				AD27BE5C29A51EB2009DA7A7 /* MemoStore.swift */,
+				AD27BE5029A51E2F009DA7A7 /* Assets.xcassets */,
+				AD27BE5229A51E2F009DA7A7 /* Preview Content */,
 			);
 			path = Memo_TCA;
 			sourceTree = "<group>";
 		};
-		AD27BE1129A4FAB6009DA7A7 /* Preview Content */ = {
+		AD27BE5229A51E2F009DA7A7 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				AD27BE1229A4FAB6009DA7A7 /* Preview Assets.xcassets */,
+				AD27BE5329A51E2F009DA7A7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +83,43 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AD27BE0729A4FAB5009DA7A7 /* Memo_TCA */ = {
+		AD27BE4829A51E2E009DA7A7 /* Memo_TCA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD27BE1629A4FAB6009DA7A7 /* Build configuration list for PBXNativeTarget "Memo_TCA" */;
+			buildConfigurationList = AD27BE5729A51E2F009DA7A7 /* Build configuration list for PBXNativeTarget "Memo_TCA" */;
 			buildPhases = (
-				AD27BE0429A4FAB5009DA7A7 /* Sources */,
-				AD27BE0529A4FAB5009DA7A7 /* Frameworks */,
-				AD27BE0629A4FAB5009DA7A7 /* Resources */,
+				AD27BE4529A51E2E009DA7A7 /* Sources */,
+				AD27BE4629A51E2E009DA7A7 /* Frameworks */,
+				AD27BE4729A51E2E009DA7A7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Memo_TCA;
+			packageProductDependencies = (
+				AD27BE5F29A526A3009DA7A7 /* Realm */,
+				AD27BE6129A526A3009DA7A7 /* RealmSwift */,
+			);
 			productName = Memo_TCA;
-			productReference = AD27BE0829A4FAB5009DA7A7 /* Memo_TCA.app */;
+			productReference = AD27BE4929A51E2E009DA7A7 /* Memo_TCA.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AD27BE0029A4FAB5009DA7A7 /* Project object */ = {
+		AD27BE4129A51E2E009DA7A7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					AD27BE0729A4FAB5009DA7A7 = {
+					AD27BE4829A51E2E009DA7A7 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = AD27BE0329A4FAB5009DA7A7 /* Build configuration list for PBXProject "Memo_TCA" */;
+			buildConfigurationList = AD27BE4429A51E2E009DA7A7 /* Build configuration list for PBXProject "Memo_TCA" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +127,48 @@
 				en,
 				Base,
 			);
-			mainGroup = AD27BDFF29A4FAB5009DA7A7;
-			productRefGroup = AD27BE0929A4FAB5009DA7A7 /* Products */;
+			mainGroup = AD27BE4029A51E2E009DA7A7;
+			packageReferences = (
+				AD27BE5E29A526A3009DA7A7 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = AD27BE4A29A51E2E009DA7A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD27BE0729A4FAB5009DA7A7 /* Memo_TCA */,
+				AD27BE4829A51E2E009DA7A7 /* Memo_TCA */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AD27BE0629A4FAB5009DA7A7 /* Resources */ = {
+		AD27BE4729A51E2E009DA7A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD27BE1329A4FAB6009DA7A7 /* Preview Assets.xcassets in Resources */,
-				AD27BE1029A4FAB6009DA7A7 /* Assets.xcassets in Resources */,
+				AD27BE5429A51E2F009DA7A7 /* Preview Assets.xcassets in Resources */,
+				AD27BE5129A51E2F009DA7A7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AD27BE0429A4FAB5009DA7A7 /* Sources */ = {
+		AD27BE4529A51E2E009DA7A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD27BE0E29A4FAB5009DA7A7 /* ContentView.swift in Sources */,
-				AD27BE0C29A4FAB5009DA7A7 /* Memo_TCAApp.swift in Sources */,
+				AD27BE5B29A51E5D009DA7A7 /* Memo.swift in Sources */,
+				AD27BE5D29A51EB2009DA7A7 /* MemoStore.swift in Sources */,
+				AD27BE6429A52CE7009DA7A7 /* AddMemoView.swift in Sources */,
+				AD27BE4F29A51E2E009DA7A7 /* ContentView.swift in Sources */,
+				AD27BE4D29A51E2E009DA7A7 /* Memo_TCAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AD27BE1429A4FAB6009DA7A7 /* Debug */ = {
+		AD27BE5529A51E2F009DA7A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +228,7 @@
 			};
 			name = Debug;
 		};
-		AD27BE1529A4FAB6009DA7A7 /* Release */ = {
+		AD27BE5629A51E2F009DA7A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +282,7 @@
 			};
 			name = Release;
 		};
-		AD27BE1729A4FAB6009DA7A7 /* Debug */ = {
+		AD27BE5829A51E2F009DA7A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -287,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		AD27BE1829A4FAB6009DA7A7 /* Release */ = {
+		AD27BE5929A51E2F009DA7A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -318,25 +341,49 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD27BE0329A4FAB5009DA7A7 /* Build configuration list for PBXProject "Memo_TCA" */ = {
+		AD27BE4429A51E2E009DA7A7 /* Build configuration list for PBXProject "Memo_TCA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD27BE1429A4FAB6009DA7A7 /* Debug */,
-				AD27BE1529A4FAB6009DA7A7 /* Release */,
+				AD27BE5529A51E2F009DA7A7 /* Debug */,
+				AD27BE5629A51E2F009DA7A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD27BE1629A4FAB6009DA7A7 /* Build configuration list for PBXNativeTarget "Memo_TCA" */ = {
+		AD27BE5729A51E2F009DA7A7 /* Build configuration list for PBXNativeTarget "Memo_TCA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD27BE1729A4FAB6009DA7A7 /* Debug */,
-				AD27BE1829A4FAB6009DA7A7 /* Release */,
+				AD27BE5829A51E2F009DA7A7 /* Debug */,
+				AD27BE5929A51E2F009DA7A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD27BE5E29A526A3009DA7A7 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD27BE5F29A526A3009DA7A7 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD27BE5E29A526A3009DA7A7 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		AD27BE6129A526A3009DA7A7 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD27BE5E29A526A3009DA7A7 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = AD27BE0029A4FAB5009DA7A7 /* Project object */;
+	rootObject = AD27BE4129A51E2E009DA7A7 /* Project object */;
 }
